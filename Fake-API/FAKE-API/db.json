@@ -36,8 +36,6 @@
       "qtdCurtidas": 10000
     }
   ],
-  "frutas": [],
-  "jogos": [],
   "imc": [
     {
       "nome": "Eduardo",
@@ -112,5 +110,44 @@
       "id": "VmlKiNVk1PY"
     }
   ],
+  "calculadora": [
+    {
+      "n1": 2,
+      "n2": 2,
+      "op": "soma",
+      "resultado": "4.00",
+      "id": "1atIghXDFLU"
+    },
+    {
+      "n1": 12.5,
+      "n2": 4,
+      "op": "multiplicacao",
+      "resultado": "50.00",
+      "id": "4KPHPh6zBTo"
+    },
+    {
+      "n1": 34,
+      "n2": 43,
+      "op": "multiplicacao",
+      "resultado": "1462.00",
+      "id": "JdZnqjBvtlk"
+    },
+    {
+      "n1": 34,
+      "n2": 43,
+      "op": "subtracao",
+      "resultado": "-9.00",
+      "id": "gyLD3xC7aJ0"
+    },
+    {
+      "n1": 34,
+      "n2": 43,
+      "op": "divisao",
+      "resultado": "0.79",
+      "id": "_liLjZeqRn4"
+    }
+  ],
+  "frutas": [],
+  "jogos": [],
   "$schema": "./node_modules/json-server/schema.json"
 }
