@@ -167,5 +167,13 @@ function reiniciaTodasAsBordas(){
     reiniciaBorda("Bairro");
     reiniciaBorda("Anotaçoes");
 }
+    
 
+function formError(idCampo) {
+    document.getElementById(idCampo).style.border = "2px solid red";
+}
+
+function reiniciaBorda(idCampo) {
+    document.getElementById(idCampo).style.border = "transparent";
+}
 

@@ -1,0 +1,116 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Murilo Silva",
+      "idade": 17,
+      "email": "Murilo@gmail.com"
+    },
+    {
+      "id": "2",
+      "nome": "Samuel",
+      "idade": 17,
+      "email": "Samu@gmail.com"
+    },
+    {
+      "name": "Felipe Silva",
+      "idade": "17",
+      "email": "Felipe@gmail.com",
+      "id": "JbKkqFMlKNc"
+    },
+    {
+      "id": "iSXE8Gg7DHY"
+    },
+    {
+      "nome": "Thiago",
+      "idade": 18,
+      "email": "Thiago@gmail.com",
+      "id": "rZDJnfWmQrw"
+    }
+  ],
+  "posts": [
+    {
+      "id": "2GYqRNIKpgw",
+      "texto": "Jogando um Minecraft",
+      "imagem": "https://i.ytimg.com/vi/5XaafXZ8ZCQ/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAiU6Mf3Ot1HTJcNPB-NwLOlPx-Xg",
+      "qtdCurtidas": 10000
+    }
+  ],
+  "frutas": [],
+  "jogos": [],
+  "imc": [
+    {
+      "nome": "Eduardo",
+      "altura": "1.67",
+      "peso": "85",
+      "imc": 30.477966223242138,
+      "situacao": "Obesidade Grau I",
+      "id": "AW-IaOp2yEQ"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": "1.67",
+      "peso": "85",
+      "imc": 30.477966223242138,
+      "situacao": "Obesidade Grau I",
+      "id": "qzIpFAEllGU"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": "1.80",
+      "peso": "85",
+      "imc": 26.234567901234566,
+      "situacao": "Sobrepeso",
+      "id": "6x7-_9q-Mto"
+    },
+    {
+      "nome": "Thiago",
+      "altura": "1.93",
+      "peso": "75",
+      "imc": 20.13476871862332,
+      "situacao": "Saudavel",
+      "id": "dCCUqMt8X94"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": "1.67",
+      "peso": "85",
+      "imc": 30.477966223242138,
+      "situacao": "Obesidade Grau I",
+      "id": "02N5v5zRVnI"
+    },
+    {
+      "nome": "Thiago",
+      "altura": "1.50",
+      "peso": "80",
+      "imc": 35.55555555555556,
+      "situacao": "Obesidade Grau II (considerada severa)",
+      "id": "1BR4DtxvPxs"
+    },
+    {
+      "nome": "Thiago",
+      "altura": "1",
+      "peso": "4",
+      "imc": 4,
+      "situacao": "Magreza Grave",
+      "id": "vDx3bRbawBA"
+    },
+    {
+      "nome": "Lucas",
+      "altura": "1.88",
+      "peso": "75",
+      "imc": 21.22000905387053,
+      "situacao": "Saudavel",
+      "id": "t8TVvnz9BWU"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "situacao": "Obesidade Grau I",
+      "id": "VmlKiNVk1PY"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
