@@ -4,10 +4,9 @@ import Paragrafo from "./components/paragrafo/paragrafo";
 function App(){
     return(
         <>
-        <Title texto = "Bem vindo, Sou Titulo"/>
-        <Title texto = "Eu sou outro Titulo"/>
-        <Paragrafo textoParagrafo = "loren 123"/>
-        </>
+      <Title nome="Eduardo" sobrenome="Costa" texto="Bem Vindo, sou Título" />
+      <Title texto="Eu sou outro Título" />
+      <Paragrafo textoParagrafo = "Lorem Ipsun dolor!!!" />        </>
     );
 }
 
