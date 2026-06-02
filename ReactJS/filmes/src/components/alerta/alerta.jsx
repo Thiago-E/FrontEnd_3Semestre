@@ -1,4 +1,4 @@
-import "./Alerta.css";
+import "./alerta.css";
 import Swal from "sweetalert2"; //biblioteca de alertas
 
 export const Alerta = ({

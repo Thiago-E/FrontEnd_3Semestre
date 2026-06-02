@@ -9,8 +9,8 @@ import CadastroGeneros from "../assets/pages/cadastroGeneros/cadastroGeneros";
 
             <Routes>
                 <Route path="/" element={<Login />} />
-               < Route path="/filme" element={<CadastroFilmes />} />
-               < Route path="/genero" element={<CadastroGeneros />} />
+               < Route path="/Filme" element={<CadastroFilmes />} />
+               < Route path="/Genero" element={<CadastroGeneros />} />
             </Routes>
         </BrowserRouter>
             

@@ -36,6 +36,7 @@ const CadastroGeneros = () => {
 
         const objCadastro = {
             nome: valor
+            
         }
 
         try {
@@ -187,7 +188,8 @@ const CadastroGeneros = () => {
                     //chama o metodo para validar
                     tipoLista="genero"
                     funcExcluir={excluirGenero}
-                    funcPreEditar={preEditar} />
+                    funcPreEditar={preEditar} 
+                    />
 
             </main>
 

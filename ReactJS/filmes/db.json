@@ -1,8 +1,29 @@
 {
   "Genero": [
     {
-      "nome": "dhfyui",
-      "id": "wdgk5pu29tQ"
+      "nome": "Romance",
+      "id": "AVzCrnOlONc"
+    },
+    {
+      "nome": "Terror",
+      "id": "ElU9-hT3ccU"
+    },
+    {
+      "nome": "Ação",
+      "id": "Om6_OE8zigs"
+    },
+    {
+      "nome": "Terror",
+      "id": "S5sURWw6cAM"
+    }
+  ],
+  "Filmes": [
+    {
+      "titulo": "CR7 O Filme",
+      "genero": {
+        "nome": "Comédia"
+      },
+      "id": "DPzLqFrbxqw"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

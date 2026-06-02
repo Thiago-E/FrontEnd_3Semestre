@@ -6,7 +6,7 @@ import Botao from "../botao/Botao";
 //     cadastro, tituloCadastro, valor, setValor, estilo, 
 //     valorSelect, setValorSelect, listaGeneros 
 //   }) => {}
-  
+
 
 const Cadastro = (props) => {
     return (
@@ -17,30 +17,43 @@ const Cadastro = (props) => {
                 <div className="campos_cadastro">
                     <div className="campo_cad_nome">
                         <label htmlFor="nome">Nome</label>
-                        <input type="text" name="nome" placeholder={`Digite o nome do ${props.placeholder}`} 
-                        //O valor do input vem de props (estado do componente pai)
-                        value={props.valor}
-                        // Atualiza o estado do pai ao digitar
-                        onChange={(e) => props.setValor(e.target.value)}
+                        <input
+                            type="text"
+                            name="nome"
+                            placeholder={`Digite o nome do ${props.placeholder}`}
+                            value={props.valor}
+                            onChange={(e) => props.setValor(e.target.value)}
                         />
                     </div>
                     <div className="campo_cad_genero" style={{ display: props.visibilidade }}>
                         <label htmlFor="genero">Gênero</label>
-                        <select name="genero" id="">
+                        <select
+                            name="genero"
+                            id="genero"
+                            value={props.generoSelecionado}
+                            onChange={(e) => props.setGeneroSelecionado(e.target.value)}
+                        >
                             <option value="">Selecione</option>
-                            <option value="">op 1</option>
-                            <option value="">op 2</option>
-                            <option value="">op 3</option>
+
+                            {props.listaGeneros?.map((item) => {
+                                return (
+                                    <option key={item.id} value={item.nome}>
+                                        {item.nome}
+                                    </option>
+                                )
+                            })}
                         </select>
                     </div>
+
+
                     {/* Botao de Editar */}
                     {
-                        props.btneditar  && <Botao nomeDoBotao="Cancelar"
-                        cancelarEdicao = {props.cancelarEdicao}
-                        btneditar={props.btneditar}
+                        props.btneditar && <Botao nomeDoBotao="Cancelar"
+                            cancelarEdicao={props.cancelarEdicao}
+                            btneditar={props.btneditar}
 
                         />}
-                    
+
                     <Botao nomeDoBotao="Cadastrar" />
                 </div>
             </form>
