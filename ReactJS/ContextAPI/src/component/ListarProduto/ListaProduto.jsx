@@ -1,18 +1,17 @@
 import { useContext } from "react";
 import { ProdutoContext } from "../../context/ProdutoContext";
+import Produto from "../produto/produto";
 
-const ListarProduto = () => {
+const ListaProduto = () => {
     const {listarProduto} = useContext(ProdutoContext)
     return (
-        <>
+        <div>
         <h2>Pagina de Listar Produto</h2>
-        {listarProduto.map((item) => {
-            return (
-                <p key={Math.random()}>{item}</p>
-            )
+        {listarProduto.map((produto, index) => {
+            return <p key = {index}>{produto}</p>
         })} 
-        </>
+        </div>
     )
 }
 
-export default ListarProduto
+export default ListaProduto

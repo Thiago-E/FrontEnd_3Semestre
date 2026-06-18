@@ -1,19 +1,19 @@
 import { useEffect, useState } from "react";
-import { UsuarioContext } from "./UsuarioContext";
+import { UsuarioContext } from "../Context/UsuarioContext";
 
 export const UsuarioProvider = ({ children }) => {
-    const [usuario, setUsuario] = useState(null);
+    const [email, setEmail] = useState(null);
 
     useEffect(() => {
-        const usuarioLogado = JSON.parse(localStorage.getItem("usuario"))
-        setUsuario(usuario)
+        const emailLogado = JSON.parse(localStorage.getItem("email"))
+        setEmail(emailLogado)
     }, [])
 
     return (
         <UsuarioContext.Provider
             value={{
-                usuario,
-                setUsuario
+                email,
+                setEmail
             }}
          >
 

@@ -1,5 +1,5 @@
 import "./Cadastro.css";
-import Botao from "../botao/Botao";
+import Botao from "../Botao/Botao";
 
 // Destructuring nas props:
 // const Cadastro = ({ 
